@@ -1,21 +1,22 @@
 {
-  "name": "my5g-rantester-free5gc-database-filler",
+  "name": "my5g-rantester-database-filler",
   "version": "1.0.0",
-  "description": "Script to fill free5GC database",
+  "description": "Script to fill 5G core database",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gabriel-lando/my5G-RANTester-free5gc-database-filler.git"
+    "url": "git+https://github.com/gabriel-lando/my5G-RANTester-Database-Filler.git"
   },
   "author": "Gabriel Lando",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/gabriel-lando/my5G-RANTester-free5gc-database-filler/issues"
+    "url": "https://github.com/gabriel-lando/my5G-RANTester-Database-Filler/issues"
   },
-  "homepage": "https://github.com/gabriel-lando/my5G-RANTester-free5gc-database-filler#readme",
+  "homepage": "https://github.com/gabriel-lando/my5G-RANTester-Database-Filler#readme",
   "dependencies": {
     "mongodb": "^4.8.0",
     "yaml": "^2.1.1"
